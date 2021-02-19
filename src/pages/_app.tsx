@@ -10,13 +10,13 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>React Avançado - Boilerplate</title>
+        <title>Mussun Ipsun</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="A simple project started to work with TypeScript, React, NextJS and Styled Components"
+          content="Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de bebadis, arcu quam euismod magna."
         />
       </Head>
       <GlobalStyles />
