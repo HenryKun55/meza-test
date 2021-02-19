@@ -98,6 +98,11 @@ export const Input = styled.input`
     ::placeholder {
       color: ${theme.colors.placeholder};
     }
+
+    ${customMedia.lessThan('tablet')`
+      margin: 0;
+      margin-left: 2rem;
+    `}
   `}
 `
 
