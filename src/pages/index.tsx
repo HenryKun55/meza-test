@@ -1,5 +1,14 @@
-import { Main } from 'components'
+import { Header, HomeHeader, HomeActions, Container, News } from 'components'
 
 export default function Home() {
-  return <Main />
+  return (
+    <>
+      <Header />
+      <HomeHeader />
+      <Container>
+        <HomeActions />
+        <News />
+      </Container>
+    </>
+  )
 }
