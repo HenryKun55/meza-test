@@ -1,9 +1,9 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import { Layout } from '.'
+import { HomeHeader } from '.'
 
 export default {
-  title: 'Layout',
-  component: Layout,
+  title: 'HomeHeader',
+  component: HomeHeader,
 } as Meta
 
-export const Basic: Story = () => <Layout />
+export const Basic: Story = () => <HomeHeader />

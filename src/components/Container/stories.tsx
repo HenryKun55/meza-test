@@ -6,4 +6,4 @@ export default {
   component: Container,
 } as Meta
 
-export const Basic: Story = () => <Container />
+export const Basic: Story = () => <Container>Opa</Container>
